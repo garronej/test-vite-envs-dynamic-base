@@ -1,1 +1,0 @@
-# test-vite-envs-dynamic-base
