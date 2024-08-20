@@ -1,0 +1,1 @@
+{"version":3,"file":"computeSomething-K_QkCMmO.js","sources":["../../src/computeSomething.ts"],"sourcesContent":["\n\nexport function computeSomething(){\n    return 42;\n}"],"names":["computeSomething"],"mappings":"AAEO,SAASA,GAAkB,CACvB,MAAA,GACX"}

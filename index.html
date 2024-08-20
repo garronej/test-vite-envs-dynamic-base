@@ -1,1 +1,38 @@
-<h1>Hello world</h1>
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/test-vite-envs-dynamic-base/vite.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Default Title 🚀</title>
+    <meta name="description" content="">
+
+    <script data-script-description="Environment variables injected by vite-envs">
+  var envWithValuesInBase64 = {
+  "BASE_URL": "Ii90ZXN0LXZpdGUtZW52cy1keW5hbWljLWJhc2UvIg==",
+  "MODE": "InByb2R1Y3Rpb24i",
+  "DEV": "ZmFsc2U=",
+  "PROD": "dHJ1ZQ==",
+  "BUILD_TIME": "MTcyNDExNDI3MTUyOQ==",
+  "VERSION": "IjQuMi4yIg==",
+  "TITLE": "IkRlZmF1bHQgVGl0bGUg8J+agCI=",
+  "DESCRIPTION": "IiI="
+};
+  var env = {};
+  Object.keys(envWithValuesInBase64).forEach(function (name) {
+    env[name] = JSON.parse(
+      new TextDecoder().decode(
+        Uint8Array.from(
+          atob(envWithValuesInBase64[name]),
+          c => c.charCodeAt(0)
+        )
+      )
+    );
+  });
+  window.__VITE_ENVS = env;
+</script><script type="module" crossorigin="" src="./assets/index-CBkWMNlo.js"></script>
+    <link rel="stylesheet" crossorigin="" href="./assets/index-DiwrgTda.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  
+
+</body></html>
